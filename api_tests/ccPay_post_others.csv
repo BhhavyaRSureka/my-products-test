@@ -1,0 +1,11 @@
+koreUserId,botId,accountId,Authorization,statusCode
+KoreUser1,Bot1,Account1,InvalidToken,UNPROCESSABLE_ENTITY
+KoreUser2,Bot2,Account2,Bearer abc,Request received
+KoreUser3,Bot3,Account3,Bearer xyz,UNPROCESSABLE_ENTITY
+KoreUser4,Bot4,Account4,InvalidToken,Request received
+KoreUser5,Bot5,Account5,Bearer def,UNPROCESSABLE_ENTITY
+KoreUser6,Bot6,Account6,InvalidToken,Request received
+KoreUser7,Bot7,Account7,Bearer ghi,UNPROCESSABLE_ENTITY
+KoreUser8,Bot8,Account8,InvalidToken,Request received
+KoreUser9,Bot9,Account9,Bearer jkl,UNPROCESSABLE_ENTITY
+KoreUser10,Bot10,Account10,InvalidToken,Request received

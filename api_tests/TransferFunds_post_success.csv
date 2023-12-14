@@ -1,0 +1,11 @@
+customerId,amount,currency,sourceAccountId,targetAccountId,date,description,TransactionType,PaymentType
+1045301,100,USD,1042346,1042223,03-15-2021,Loan Payment,1063,Minimum Payment
+1045302,200,USD,1042347,1042224,03-16-2021,Internal Transfer,,,
+1045303,300,USD,1042348,1042225,03-17-2021,Mortgage Payment,1063,Monthly Payment
+1045304,400,USD,1042349,1042226,03-18-2021,Loan Payment,1063,Additional Principal Payment
+1045305,500,USD,1042350,1042227,03-19-2021,Internal Transfer,,,
+1045306,600,USD,1042351,1042228,03-20-2021,Mortgage Payment,1063,Minimum Payment
+1045307,700,USD,1042352,1042229,03-21-2021,Loan Payment,1063,Monthly Payment
+1045308,800,USD,1042353,1042230,03-22-2021,Internal Transfer,,,
+1045309,900,USD,1042354,1042231,03-23-2021,Mortgage Payment,1063,Additional Principal Payment
+1045310,1000,USD,1042355,1042232,03-24-2021,Loan Payment,1063,Minimum Payment

@@ -1,0 +1,11 @@
+customerId,paymentId,sourceAccountId,targetAccountId,amount,scheduledDate,recurringOptions,updateTransferType
+1045304,744a77644d67e891,1042347,1043699,500,1617148800000,{amountType:Fixed,frequency:{iterate:Weekly,duration:{numberOfTransfers:3}}},Next
+1045305,744a77644d67e892,1042348,1043700,600,1617148800001,{amountType:Fixed,frequency:{iterate:Monthly,duration:{numberOfTransfers:6}}},Next
+1045306,744a77644d67e893,1042349,1043701,700,1617148800002,{amountType:Fixed,frequency:{iterate:Yearly,duration:{numberOfTransfers:1}}},Next
+1045307,744a77644d67e894,1042350,1043702,800,1617148800003,{amountType:Variable,frequency:{iterate:Weekly,duration:{numberOfTransfers:4}}},Next
+1045308,744a77644d67e895,1042351,1043703,900,1617148800004,{amountType:Variable,frequency:{iterate:Monthly,duration:{numberOfTransfers:5}}},Next
+1045309,744a77644d67e896,1042352,1043704,1000,1617148800005,{amountType:Variable,frequency:{iterate:Yearly,duration:{numberOfTransfers:2}}},Next
+1045310,744a77644d67e897,1042353,1043705,1100,1617148800006,{amountType:Fixed,frequency:{iterate:Weekly,duration:{numberOfTransfers:3}}},Next
+1045311,744a77644d67e898,1042354,1043706,1200,1617148800007,{amountType:Fixed,frequency:{iterate:Monthly,duration:{numberOfTransfers:6}}},Next
+1045312,744a77644d67e899,1042355,1043707,1300,1617148800008,{amountType:Fixed,frequency:{iterate:Yearly,duration:{numberOfTransfers:1}}},Next
+1045313,744a77644d67e900,1042356,1043708,1400,1617148800009,{amountType:Variable,frequency:{iterate:Weekly,duration:{numberOfTransfers:4}}},Next

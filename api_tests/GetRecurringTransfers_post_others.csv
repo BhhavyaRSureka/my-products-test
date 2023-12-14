@@ -1,0 +1,11 @@
+koreUserId,botId,userCode,accountId,Authorization,statusCode
+1045301,bot123,USR01,ACC123,AuthCode123,Active
+1045302,bot456,USR02,ACC456,AuthCode456,Pending
+1045303,bot789,USR03,ACC789,AuthCode789,Active
+1045304,bot101,USR04,ACC101,AuthCode101,Pending
+1045305,bot102,USR05,ACC102,AuthCode102,Active
+1045306,bot103,USR06,ACC103,AuthCode103,Pending
+1045307,bot104,USR07,ACC104,AuthCode104,Active
+1045308,bot105,USR08,ACC105,AuthCode105,Pending
+1045309,bot106,USR09,ACC106,AuthCode106,Active
+1045310,bot107,USR10,ACC107,AuthCode107,Pending

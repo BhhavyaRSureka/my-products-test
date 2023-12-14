@@ -1,0 +1,11 @@
+koreUserId,botId,accountId,Authorization,statusCode
+abc,asd,qwe,Bearer abc,200
+xyz,def,uvw,Bearer xyz,400
+mno,pqr,stv,Bearer mno,500
+ghi,jkl,zab,Bearer ghi,200
+rst,uvw,xyz,Bearer rst,400
+klm,nop,qrs,Bearer klm,500
+tuv,wxy,zab,Bearer tuv,200
+efg,hij,klm,Bearer efg,400
+nop,qrs,tuv,Bearer nop,500
+wxy,zab,cde,Bearer wxy,200

@@ -1,0 +1,11 @@
+customerId,email,alternatePhoneNumber,isAlternateMobileNumber,phone,isPrimaryMobileNumber,location
+1045300,John@gmail.com,1234567890,true,9876543210,true,New York
+1045301,Emma@gmail.com,2345678901,false,8765432109,true,London
+1045302,Oliver@gmail.com,3456789012,true,7654321098,false,Tokyo
+1045303,Mia@gmail.com,4567890123,false,6543210987,true,Paris
+1045304,Noah@gmail.com,5678901234,true,5432109876,false,Sydney
+1045305,Sophia@gmail.com,6789012345,false,4321098765,true,Berlin
+1045306,Liam@gmail.com,7890123456,true,3210987654,false,Madrid
+1045307,Ava@gmail.com,8901234567,false,2109876543,true,Rome
+1045308,Ethan@gmail.com,9012345678,true,1098765432,false,Beijing
+1045309,Isabella@gmail.com,0123456789,false,0987654321,true,Moscow

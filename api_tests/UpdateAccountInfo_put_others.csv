@@ -1,0 +1,11 @@
+accountNumber,customerId,email,alternatePhoneNumber,isAlternateMobileNumber,phone,isPrimaryMobileNumber,location,isStatement
+1042345,1045300,John@gmail.com,1234567890,true,0987654321,true,New York,true
+1042346,1045301,Jane@gmail.com,2345678901,false,1987654322,false,Los Angeles,false
+1042347,1045302,Steve@gmail.com,3456789012,true,2987654323,true,Chicago,true
+1042348,1045303,Mary@gmail.com,4567890123,false,3987654324,false,Houston,false
+1042349,1045304,Mark@gmail.com,5678901234,true,4987654325,true,Philadelphia,true
+1042350,1045305,Lisa@gmail.com,6789012345,false,5987654326,false,Phoenix,false
+1042351,1045306,Paul@gmail.com,7890123456,true,6987654327,true,San Antonio,true
+1042352,1045307,Sarah@gmail.com,8901234567,false,7987654328,false,San Diego,false
+1042353,1045308,Robert@gmail.com,9012345678,true,8987654329,true,Dallas,true
+1042354,1045309,Linda@gmail.com,0123456789,false,9987654330,false,San Jose,false
