@@ -1,0 +1,11 @@
+customerId,amount,sourceAccountId,targetAccountId,currency,status,scheduledDate,recurringOptions.amountType,recurringOptions.frequency.iterate,recurringOptions.frequency.duration.numberOfTransfers
+3456,700,8901,2345,CNY,Completed,2022-07-01,Debit,Yes,70
+6789,1000,1234,5678,SGD,Completed,2022-10-01,Credit,No,100
+1234,500,5678,9012,USD,Pending,2022-11-01,Fixed,Yes,50
+2345,800,9012,3456,EUR,Completed,2022-08-01,Debit,No,80
+3456,900,2345,6789,JPY,Pending,2022-09-01,Fixed,Yes,90
+4567,600,6789,1234,AUD,Completed,2022-07-01,Debit,No,60
+5678,700,1234,2345,CAD,Pending,2022-10-01,Fixed,Yes,70
+6789,800,2345,3456,CHF,Completed,2022-08-01,Debit,No,80
+7890,900,3456,4567,GBP,Pending,2022-09-01,Fixed,Yes,90
+8901,1000,4567,5678,HKD,Completed,2022-07-01,Debit,No,100

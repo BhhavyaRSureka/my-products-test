@@ -1,0 +1,11 @@
+koreUserId,botId,accountId,Authorization,X-Auth-token,X-CORRELATION-ID,statusCode
+9876,12345,67890,auth-token-1,x-auth-token-1,cid-12345,200
+2345,67891,34567,auth-token-2,x-auth-token-2,cid-23456,201
+3456,78912,45678,auth-token-3,x-auth-token-3,cid-34567,202
+4567,89123,56789,auth-token-4,x-auth-token-4,cid-45678,203
+5678,91234,67890,auth-token-5,x-auth-token-5,cid-56789,204
+6789,12345,78901,auth-token-6,x-auth-token-6,cid-67890,205
+7890,23456,89012,auth-token-7,x-auth-token-7,cid-78901,206
+8901,34567,90123,auth-token-8,x-auth-token-8,cid-89012,207
+9012,45678,01234,auth-token-9,x-auth-token-9,cid-90123,208
+0123,56789,12345,auth-token-10,x-auth-token-10,cid-01234,209

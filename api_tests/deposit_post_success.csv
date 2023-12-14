@@ -1,0 +1,11 @@
+customerId,sourceAccountId,amount,currency,frontImage,backImage
+1045301,1042346,1042223,USD,https://google.com,https://google.com
+1045302,1042347,1042224,EUR,https://google.com,https://google.com
+1045303,1042348,1042225,GBP,https://google.com,https://google.com
+1045304,1042349,1042226,JPY,https://google.com,https://google.com
+1045305,1042350,1042227,CAD,https://google.com,https://google.com
+1045306,1042351,1042228,AUD,https://google.com,https://google.com
+1045307,1042352,1042229,CHF,https://google.com,https://google.com
+1045308,1042353,1042230,CNY,https://google.com,https://google.com
+1045309,1042354,1042231,SEK,https://google.com,https://google.com
+1045310,1042355,1042232,NZD,https://google.com,https://google.com

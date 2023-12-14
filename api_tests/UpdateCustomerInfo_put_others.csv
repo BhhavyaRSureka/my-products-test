@@ -1,0 +1,11 @@
+koreUserId,botId,accountId,Authorization,X-Auth-token,X-CORRELATION-ID,statusCode
+1045300,John@gmail.com,1234567890,true,9876543210,false,New York
+1045301,Jane@gmail.com,2345678901,true,8765432109,true,Los Angeles
+1045302,Adam@gmail.com,null,false,7654321098,false,Chicago
+1045303,Eve@gmail.com,3456789012,true,6543210987,true,Houston
+1045304,Bob@gmail.com,4567890123,true,5432109876,false,Phoenix
+1045305,Alice@gmail.com,5678901234,true,4321098765,true,Philadelphia
+1045306,Charlie@gmail.com,6789012345,true,3210987654,false,San Antonio
+1045307,David@gmail.com,7890123456,true,2109876543,true,San Diego
+1045308,Ella@gmail.com,8901234567,true,1098765432,false,Dallas
+1045309,Frank@gmail.com,9012345678,true,0987654321,true,San Jose

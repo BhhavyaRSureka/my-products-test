@@ -1,0 +1,11 @@
+koreUserId,botId,userCode,accountId,Authorization,statusCode
+7890,1234,5678,9012,Bearer abcs,200
+123,4567,8901,2345,Bearer abcs,200
+456,7890,1234,5678,Bearer abcs,400
+890,1234,5678,9012,Bearer abcs,500
+234,5678,9012,3456,Bearer abcs,200
+567,8901,2345,6789,Bearer abcs,400
+890,1234,5678,9012,Bearer abcs,500
+345,6789,1234,5678,Bearer abcs,200
+678,9012,3456,7890,Bearer abcs,400
+901,2345,6789,1234,Bearer abcs,500

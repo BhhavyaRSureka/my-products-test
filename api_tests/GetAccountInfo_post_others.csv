@@ -1,0 +1,11 @@
+koreUserId,botId,accountId,Authorization,X-Auth-token,X-CORRELATION-ID,statusCode
+abc,asd,qwe,Bearer abc,5073e590-52c1-4df9-97ba-80a9831ca404,1045300,200
+abc,asd,qwe,Bearer abc,9b392804-9631-4f22-b5a6-11766bf74826,1045300,200
+abc,asd,qwe,Bearer abc,590976cb-e9d3-4c03-8a46-9e63924f5a73,1045300,400
+testUser,1234,5678,InvalidToken,testToken,9012,200
+testUser,5678,9012,InvalidToken,testToken,3456,200
+xyz,987,654,Bearer xyz,5073e590-52c1-4df9-97ba-80a9831ca404,1045301,200
+xyz,987,654,Bearer xyz,9b392804-9631-4f22-b5a6-11766bf74826,1045301,200
+xyz,987,654,Bearer xyz,590976cb-e9d3-4c03-8a46-9e63924f5a73,1045301,400
+testUser2,4321,8765,InvalidToken,testToken2,9013,200
+testUser2,8765,9013,InvalidToken,testToken2,3457,200
