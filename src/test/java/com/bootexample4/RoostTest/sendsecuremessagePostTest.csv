@@ -1,0 +1,11 @@
+Authorization,authType,firstName,lastName,email,phoneNumber,topic,message,availableTime,chatHistory,cif,statusCode
+Bearer token1,OAuth,John,Doe,johndoe@gmail.com,1234567890,Support,Hello, how can I help?,9:00 AM - 5:00 PM,Previous chat history,123456,200
+Bearer token2,OAuth,Jane,Doe,janedoe@gmail.com,0987654321,Sales,I am interested in this product.,10:00 AM - 6:00 PM,Previous chat history,234567,200
+Bearer token3,OAuth,Robert,Smith,robertsmith@gmail.com,1122334455,Tech,My device is not working.,11:00 AM - 7:00 PM,Previous chat history,345678,200
+Bearer token4,OAuth,Mary,Johnson,maryjohnson@gmail.com,2233445566,Support,I need help with my account.,12:00 PM - 8:00 PM,Previous chat history,456789,200
+Bearer token5,OAuth,James,Brown,jamesbrown@gmail.com,3344556677,Sales,I want to buy this.,1:00 PM - 9:00 PM,Previous chat history,567890,200
+Bearer token6,OAuth,Patricia,Williams,patriciawilliams@gmail.com,4455667788,Tech,My software is not updating.,2:00 PM - 10:00 PM,Previous chat history,678901,200
+Bearer token7,OAuth,Michael,Davis,michaeldavis@gmail.com,5566778899,Support,I forgot my password.,3:00 PM - 11:00 PM,Previous chat history,789012,200
+Bearer token8,OAuth,Linda,Miller,lindamiller@gmail.com,6677889900,Sales,I want to upgrade my plan.,4:00 PM - 12:00 AM,Previous chat history,890123,200
+Bearer token9,OAuth,William,Wilson,williamwilson@gmail.com,7788990011,Tech,My app is crashing.,5:00 PM - 1:00 AM,Previous chat history,901234,200
+Bearer token10,OAuth,Elizabeth,Moore,elizabethmoore@gmail.com,8899001122,Support,I can't login to my account.,6:00 PM - 2:00 AM,Previous chat history,012345,200
