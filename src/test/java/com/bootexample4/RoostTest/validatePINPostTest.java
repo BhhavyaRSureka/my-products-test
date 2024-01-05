@@ -13,7 +13,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -48,9 +48,6 @@ public class validatePINPostTest {
                 
   
                 Response response = given()
-				.pathParam("botId", map.get("botId") != null ? map.get("botId") : "")
-				.pathParam("accountId", map.get("accountId") != null ? map.get("accountId") : "")
-				.pathParam("Authorization", map.get("Authorization") != null ? map.get("Authorization") : "")
 				.contentType(ContentType.JSON)
 				.body("{\n"+
 					"  \"sourcePin\": \"" + (map.get("sourcePin") != null ? map.get("sourcePin") : "") + "\",\n" +

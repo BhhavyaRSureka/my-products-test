@@ -13,7 +13,7 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
