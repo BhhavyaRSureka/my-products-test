@@ -1,0 +1,11 @@
+petId,name,status,statusCode
+P123,Max,available,200
+P124,Bella,sold,201
+P125,Charlie,reserved,202
+P126,Molly,available,200
+P127,Buddy,sold,201
+P128,Daisy,reserved,202
+P129,Jack,available,200
+P130,Lucy,sold,201
+P131,Teddy,reserved,202
+P132,Ruby,available,200

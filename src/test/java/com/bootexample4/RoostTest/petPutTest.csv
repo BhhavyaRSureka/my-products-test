@@ -1,0 +1,11 @@
+id,category,name,photoUrls,tags,status,statusCode
+1,Animals,doggie,["www.photo1.com","www.photo2.com"],[Dog,Large],"available",400
+2,Birds,parrot,["www.photo3.com","www.photo4.com"],[Bird,Small],"pending",404
+3,Fishes,goldfish,["www.photo5.com","www.photo6.com"],[Fish,Small],"sold",405
+4,Reptiles,python,["www.photo7.com","www.photo8.com"],[Reptile,Large],"available",400
+5,Animals,kitty,["www.photo9.com","www.photo10.com"],[Cat,Small],"pending",404
+6,Birds,eagle,["www.photo11.com","www.photo12.com"],[Bird,Large],"sold",405
+7,Fishes,shark,["www.photo13.com","www.photo14.com"],[Fish,Large],"available",400
+8,Reptiles,iguana,["www.photo15.com","www.photo16.com"],[Reptile,Small],"pending",404
+9,Animals,puppy,["www.photo17.com","www.photo18.com"],[Dog,Small],"sold",405
+10,Birds,peacock,["www.photo19.com","www.photo20.com"],[Bird,Large],"available",400

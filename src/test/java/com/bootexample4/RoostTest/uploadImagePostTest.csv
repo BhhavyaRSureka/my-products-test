@@ -1,0 +1,11 @@
+petId,additionalMetadata,file,statusCode
+12345,metadata1,file1.jpg,200
+67890,metadata2,file2.jpg,200
+11223,metadata3,file3.jpg,200
+44556,metadata4,file4.jpg,200
+77889,metadata5,file5.jpg,200
+99001,metadata6,file6.jpg,200
+22334,metadata7,file7.jpg,200
+55667,metadata8,file8.jpg,200
+88990,metadata9,file9.jpg,200
+10203,metadata10,file10.jpg,200

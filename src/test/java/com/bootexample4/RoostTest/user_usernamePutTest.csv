@@ -1,0 +1,11 @@
+username,id,firstName,lastName,email,password,phone,userStatus,statusCode
+jdoe1,1,John,Doe,jdoe1@example.com,pass123,1234567890,1,400
+asmith2,2,Adam,Smith,asmith2@example.com,pass456,2345678910,0,404
+ljohnson3,3,Lisa,Johnson,ljohnson3@example.com,pass789,3456789120,1,400
+mwilliams4,4,Mark,Williams,mwilliams4@example.com,pass012,4567891230,0,404
+jbrown5,5,James,Brown,jbrown5@example.com,pass345,5678912340,1,400
+davis6,6,Daniel,Davis,davis6@example.com,pass678,6789123450,0,404
+mjones7,7,Mary,Jones,mjones7@example.com,pass901,7891234560,1,400
+gmiller8,8,George,Miller,gmiller8@example.com,pass234,8912345670,0,404
+jwilson9,9,Jennifer,Wilson,jwilson9@example.com,pass567,9123456780,1,400
+tmoore10,10,Thomas,Moore,tmoore10@example.com,pass890,1234567891,0,404

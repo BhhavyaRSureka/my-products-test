@@ -1,0 +1,11 @@
+id,category,name,photoUrls,tags,status,statusCode
+1,Animals,doggie,http://example.com/dog.jpg,[dog, pet],available,200
+2,People,John,http://example.com/john.jpg,[man, person],pending,405
+3,Food,Pizza,http://example.com/pizza.jpg,[italian, food],sold,200
+4,Tech,iPhone,http://example.com/iphone.jpg,[apple, phone],available,200
+5,Cars,Tesla,http://example.com/tesla.jpg,[electric, car],pending,405
+6,Books,HarryPotter,http://example.com/harrypotter.jpg,[fantasy, book],available,200
+7,Music,Beatles,http://example.com/beatles.jpg,[rock, band],sold,200
+8,Movies,StarWars,http://example.com/starwars.jpg,[sci-fi, movie],pending,405
+9,Fashion,Levis,http://example.com/levis.jpg,[jeans, clothing],sold,200
+10,Sports,Football,http://example.com/football.jpg,[soccer, game],available,200
