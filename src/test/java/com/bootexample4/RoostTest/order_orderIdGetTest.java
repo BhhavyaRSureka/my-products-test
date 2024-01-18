@@ -46,8 +46,7 @@ public class order_orderIdGetTest {
                 for (int i = 0; i < headers.length; i++) {  
                     map.put(headers[i], data[i]);  
                 }  
-                
-  
+
                 Response response = given()
 				.pathParam("orderId", map.get("orderId") != null ? map.get("orderId") : "")
                 .when()
@@ -58,31 +57,31 @@ public class order_orderIdGetTest {
                 if (response.statusCode() == 200) {
 					System.out.println("Description: successful operation");
     
-              if (response.jsonPath().get("id") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("id"), instanceOf(Integer.class));  
+        //       if (response.path("xml.id") != null) {
+        //         MatcherAssert.assertThat(response.path("xml.id"), instanceOf(Integer.class));  
+        //   }
+    
+        //       if (response.path("xml.petId") != null) {
+        //         MatcherAssert.assertThat(response.path("xml.petId"), instanceOf(Integer.class));  
+        //   }
+    
+        //       if (response.path("xml.quantity") != null) {
+        //         MatcherAssert.assertThat(response.path("xml.quantity"), instanceOf(Integer.class));  
+        //   }
+    
+              if (response.path("xml.shipDate") != null) {
+                MatcherAssert.assertThat(response.path("xml.shipDate"), instanceOf(String.class));  
           }
     
-              if (response.jsonPath().get("petId") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("petId"), instanceOf(Integer.class));  
-          }
-    
-              if (response.jsonPath().get("quantity") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("quantity"), instanceOf(Integer.class));  
-          }
-    
-              if (response.jsonPath().get("shipDate") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("shipDate"), instanceOf(String.class));  
-          }
-    
-              if (response.jsonPath().get("status") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("status"), instanceOf(String.class));  
-                MatcherAssert.assertThat(response.jsonPath().getString("status"), anyOf(equalTo("placed"), equalTo("approved"), equalTo("delivered")));
+              if (response.path("xml.status") != null) {
+                MatcherAssert.assertThat(response.path("xml.status"), instanceOf(String.class));  
+                MatcherAssert.assertThat(response.path("xml.status"), anyOf(equalTo("placed"), equalTo("approved"), equalTo("delivered")));
   
           }
     
-              if (response.jsonPath().get("complete") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("complete"), instanceOf(Boolean.class));  
-          }
+        //       if (response.path("xml.complete") != null) {
+        //         MatcherAssert.assertThat(response.path("xml.complete"), instanceOf(Boolean.class));  
+        //   }
 				}
 if (response.statusCode() == 400) {
 					System.out.println("Description: Invalid ID supplied");

@@ -49,13 +49,12 @@ public class userPostTest {
                 
   
                 Response response = given()
-				.pathParam("body", map.get("body") != null ? map.get("body") : "")
                 .when()
                 .post("/user")  
                 .then() 
                 .extract().response();    
          
-                if (response.statusCode() == default) {
+                if (response.statusCode() == 200) {
 					System.out.println("Description: successful operation");
 				}
   

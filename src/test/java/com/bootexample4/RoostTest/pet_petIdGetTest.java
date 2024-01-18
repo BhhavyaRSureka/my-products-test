@@ -48,7 +48,8 @@ public class pet_petIdGetTest {
                 }  
                 
   
-                Response response = given()undefined
+                Response response = given()
+                .pathParam("petId", map.get("petId") != null ? map.get("petId") : "")
                 .when()
                 .get("/pet/{petId}")  
                 .then() 
@@ -62,7 +63,7 @@ public class pet_petIdGetTest {
           }
     
               if (response.jsonPath().get("category") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("category"), instanceOf(undefined.class));  
+                MatcherAssert.assertThat(response.jsonPath().get("category"), nullValue());  
           }
     
               if (response.jsonPath().get("name") != null) {

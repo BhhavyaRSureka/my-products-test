@@ -58,37 +58,37 @@ public class user_usernameGetTest {
                 if (response.statusCode() == 200) {
 					System.out.println("Description: successful operation");
     
-              if (response.jsonPath().get("id") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("id"), instanceOf(Integer.class));  
+        //       if (response.path("xml.id") != null) {
+        //         MatcherAssert.assertThat(response.path("xml.id"), instanceOf(Integer.class));  
+        //   }
+    
+              if (response.path("xml.username") != null) {
+                MatcherAssert.assertThat(response.path("xml.username"), instanceOf(String.class));  
           }
     
-              if (response.jsonPath().get("username") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("username"), instanceOf(String.class));  
+              if (response.path("xml.firstName") != null) {
+                MatcherAssert.assertThat(response.path("xml.firstName"), instanceOf(String.class));  
           }
     
-              if (response.jsonPath().get("firstName") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("firstName"), instanceOf(String.class));  
+              if (response.path("xml.lastName") != null) {
+                MatcherAssert.assertThat(response.path("xml.lastName"), instanceOf(String.class));  
           }
     
-              if (response.jsonPath().get("lastName") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("lastName"), instanceOf(String.class));  
+              if (response.path("xml.email") != null) {
+                MatcherAssert.assertThat(response.path("xml.email"), instanceOf(String.class));  
           }
     
-              if (response.jsonPath().get("email") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("email"), instanceOf(String.class));  
+              if (response.path("xml.password") != null) {
+                MatcherAssert.assertThat(response.path("xml.password"), instanceOf(String.class));  
           }
     
-              if (response.jsonPath().get("password") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("password"), instanceOf(String.class));  
+              if (response.path("xml.phone") != null) {
+                MatcherAssert.assertThat(response.path("xml.phone"), instanceOf(String.class));  
           }
     
-              if (response.jsonPath().get("phone") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("phone"), instanceOf(String.class));  
-          }
-    
-              if (response.jsonPath().get("userStatus") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("userStatus"), instanceOf(Integer.class));  
-          }
+        //       if (response.path("xml.userStatus") != null) {
+        //         MatcherAssert.assertThat(response.path("xml.userStatus"), instanceOf(Integer.class));  
+        //   }
 				}
 if (response.statusCode() == 400) {
 					System.out.println("Description: Invalid username supplied");

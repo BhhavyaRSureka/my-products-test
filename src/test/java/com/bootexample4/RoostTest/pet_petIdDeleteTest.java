@@ -48,7 +48,8 @@ public class pet_petIdDeleteTest {
                 }  
                 
   
-                Response response = given()undefined
+                Response response = given()
+                .pathParam("petId", map.get("petId") != null ? map.get("petId") : "")
                 .when()
                 .delete("/pet/{petId}")  
                 .then() 

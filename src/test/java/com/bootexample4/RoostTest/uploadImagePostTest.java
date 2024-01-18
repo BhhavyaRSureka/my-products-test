@@ -48,7 +48,8 @@ public class uploadImagePostTest {
                 }  
                 
   
-                Response response = given()undefined
+                Response response = given()
+                .pathParam("petId", map.get("petId") != null ? map.get("petId") : "")
                 .when()
                 .post("/pet/{petId}/uploadImage")  
                 .then() 

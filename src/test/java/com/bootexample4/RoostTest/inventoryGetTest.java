@@ -48,7 +48,7 @@ public class inventoryGetTest {
                 }  
                 
   
-                Response response = given()undefined
+                Response response = given()
                 .when()
                 .get("/store/inventory")  
                 .then() 

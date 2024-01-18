@@ -48,7 +48,7 @@ public class findByTagsGetTest {
                 }  
                 
   
-                Response response = given()undefined
+                Response response = given()
                 .when()
                 .get("/pet/findByTags")  
                 .then() 
@@ -62,7 +62,7 @@ public class findByTagsGetTest {
           }
     
               if (response.jsonPath().get("category") != null) {
-                MatcherAssert.assertThat(response.jsonPath().get("category"), instanceOf(undefined.class));  
+                MatcherAssert.assertThat(response.jsonPath().get("category"), nullValue());  
           }
     
               if (response.jsonPath().get("name") != null) {

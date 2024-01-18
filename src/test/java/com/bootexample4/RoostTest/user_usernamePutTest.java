@@ -50,7 +50,6 @@ public class user_usernamePutTest {
   
                 Response response = given()
 				.pathParam("username", map.get("username") != null ? map.get("username") : "")
-				.pathParam("body", map.get("body") != null ? map.get("body") : "")
                 .when()
                 .put("/user/{username}")  
                 .then() 
