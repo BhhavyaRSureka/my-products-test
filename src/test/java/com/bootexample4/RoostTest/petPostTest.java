@@ -48,7 +48,7 @@ public class petPostTest {
                 }  
                 
   
-                Response response = given()undefined
+                Response response = given()
                 .when()
                 .post("/pet")  
                 .then() 

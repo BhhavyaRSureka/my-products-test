@@ -48,7 +48,7 @@ public class petPutTest {
                 }  
                 
   
-                Response response = given()undefined
+                Response response = given()
                 .when()
                 .put("/pet")  
                 .then() 
