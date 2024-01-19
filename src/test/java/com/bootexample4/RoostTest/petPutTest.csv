@@ -1,0 +1,11 @@
+id,category,name,photoUrls,tags,status,statusCode
+1,Animals,doggie,["www.doggie1.com","www.doggie2.com"],["tag1","tag2"],available,400
+2,Pets,Tom,["www.cat1.com","www.cat2.com"],["tag3","tag4"],pending,404
+3,Birds,Parrot,["www.parrot1.com","www.parrot2.com"],["tag5","tag6"],sold,405
+4,Fish,Goldfish,["www.fish1.com","www.fish2.com"],["tag7","tag8"],available,400
+5,Reptiles,Snake,["www.snake1.com","www.snake2.com"],["tag9","tag10"],pending,404
+6,Insects,Spider,["www.spider1.com","www.spider2.com"],["tag11","tag12"],sold,405
+7,Mammals,Lion,["www.lion1.com","www.lion2.com"],["tag13","tag14"],available,400
+8,Amphibians,Frog,["www.frog1.com","www.frog2.com"],["tag15","tag16"],pending,404
+9,Animals,Cat,["www.cat3.com","www.cat4.com"],["tag17","tag18"],sold,405
+10,Animals,doggie,["www.doggie3.com","www.doggie4.com"],["tag19","tag20"],available,400
