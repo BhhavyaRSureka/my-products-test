@@ -49,8 +49,6 @@ public class loginGetTest {
                 
   
                 Response response = given()
-				.pathParam("username", map.get("username") != null ? map.get("username") : "")
-				.pathParam("password", map.get("password") != null ? map.get("password") : "")
                 .when()
                 .get("/user/login")  
                 .then() 

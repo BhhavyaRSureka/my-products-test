@@ -54,7 +54,7 @@ public class logoutGetTest {
                 .then() 
                 .extract().response();    
          
-                if (response.statusCode() == default) {
+                if (response.statusCode() == 200) {
 					System.out.println("Description: successful operation");
 				}
   
