@@ -49,13 +49,12 @@ public class createWithListPostTest {
                 
   
                 Response response = given()
-				.pathParam("body", map.get("body") != null ? map.get("body") : "")
                 .when()
                 .post("/user/createWithList")  
                 .then() 
                 .extract().response();    
          
-                if (response.statusCode() == default) {
+                if (response.statusCode() == 200) {
 					System.out.println("Description: successful operation");
 				}
   
