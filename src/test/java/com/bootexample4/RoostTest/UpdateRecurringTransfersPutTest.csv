@@ -1,0 +1,11 @@
+koreUserId,botId,userCode,accountId,Authorization,paymentId,customerId,amount,scheduledDate,sourceAccountId,targetAccountId,recurringOptions,amountType,frequency,duration,untilStop,untilDate,numberOfTransfers,iterate,updateTransferType,statusCode
+KU123,BT123,UC123,AC123,AUTH123,PI123,123456,1000,20220228,SA123,TA123,{monthly:true},debit,{monthly:true},{duration:12},yes,20230301,12,no,manual,200
+KU124,BT124,UC124,AC124,AUTH124,PI124,123457,2000,20220301,SA124,TA124,{weekly:true},credit,{weekly:true},{duration:24},no,20240302,24,yes,automatic,200
+KU125,BT125,UC125,AC125,AUTH125,PI125,123458,3000,20220302,SA125,TA125,{daily:true},debit,{daily:true},{duration:36},yes,20250303,36,no,manual,200
+KU126,BT126,UC126,AC126,AUTH126,PI126,123459,4000,20220303,SA126,TA126,{monthly:true},credit,{monthly:true},{duration:48},no,20260304,48,yes,automatic,200
+KU127,BT127,UC127,AC127,AUTH127,PI127,123460,5000,20220304,SA127,TA127,{weekly:true},debit,{weekly:true},{duration:60},yes,20270305,60,no,manual,200
+KU128,BT128,UC128,AC128,AUTH128,PI128,123461,6000,20220305,SA128,TA128,{daily:true},credit,{daily:true},{duration:72},no,20280306,72,yes,automatic,200
+KU129,BT129,UC129,AC129,AUTH129,PI129,123462,7000,20220306,SA129,TA129,{monthly:true},debit,{monthly:true},{duration:84},yes,20290307,84,no,manual,200
+KU130,BT130,UC130,AC130,AUTH130,PI130,123463,8000,20220307,SA130,TA130,{weekly:true},credit,{weekly:true},{duration:96},no,20300308,96,yes,automatic,200
+KU131,BT131,UC131,AC131,AUTH131,PI131,123464,9000,20220308,SA131,TA131,{daily:true},debit,{daily:true},{duration:108},yes,20310309,108,no,manual,200
+KU132,BT132,UC132,AC132,AUTH132,PI132,123465,10000,20220309,SA132,TA132,{monthly:true},credit,{monthly:true},{duration:120},no,20320310,120,yes,automatic,200
