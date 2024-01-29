@@ -1,0 +1,11 @@
+botId,accountId,Authorization,sourcePin,targetPin,statusCode
+Bot1234,Acc5678,Authorized,123456,654321,200
+Bot2345,Acc6789,Not Authorized,234567,765432,401
+Bot3456,Acc7890,Authorized,345678,876543,200
+Bot4567,Acc8901,Not Authorized,456789,987654,401
+Bot5678,Acc9012,Authorized,567890,098765,200
+Bot6789,Acc0123,Not Authorized,678901,109876,401
+Bot7890,Acc1234,Authorized,789012,210987,200
+Bot8901,Acc2345,Not Authorized,890123,321098,401
+Bot9012,Acc3456,Authorized,901234,432109,200
+Bot0123,Acc4567,Not Authorized,012345,543210,401

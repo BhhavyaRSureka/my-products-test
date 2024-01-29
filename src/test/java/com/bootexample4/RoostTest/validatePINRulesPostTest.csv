@@ -1,0 +1,11 @@
+botId,accountId,Authorization,sourcePin,statusCode
+bot1234,acc5678,auth9123,pin3456,200
+bot2345,acc6789,auth0234,pin4567,401
+bot3456,acc7890,auth1345,pin5678,404
+bot4567,acc8901,auth2456,pin6789,200
+bot5678,acc9012,auth3567,pin7890,401
+bot6789,acc0123,auth4678,pin8901,404
+bot7890,acc1234,auth5789,pin9012,200
+bot8901,acc2345,auth6890,pin0123,401
+bot9012,acc3456,auth7901,pin1234,404
+bot0123,acc4567,auth8012,pin2345,200
