@@ -1,0 +1,11 @@
+koreUserId,botId,userCode,accountId,Authorization,customerId,status,statusCode
+jdoe123,bot345,uc789,acc101,auth202,1045301,Pending,200
+asmith456,bot678,uc012,acc303,auth404,1045302,Completed,200
+mperry789,bot901,uc345,acc505,auth606,1045303,Failed,401
+jblack012,bot234,uc678,acc707,auth808,1045304,Pending,200
+dwhite345,bot567,uc901,acc909,auth010,1045305,Completed,200
+bgreen678,bot890,uc234,acc111,auth212,1045306,Failed,401
+ybrown901,bot123,uc567,acc313,auth414,1045307,Pending,200
+ppink234,bot456,uc890,acc515,auth616,1045308,Completed,200
+ggray567,bot789,uc123,acc717,auth818,1045309,Failed,401
+rred890,bot012,uc456,acc919,auth020,1045310,Pending,200
