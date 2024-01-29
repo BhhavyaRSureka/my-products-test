@@ -1,0 +1,11 @@
+koreUserId,botId,accountId,Authorization,customerId,status,statusCode
+user1,bot1,account1,auth1,1045301,Pending,200
+user2,bot2,account2,auth2,1045302,Completed,200
+user3,bot3,account3,auth3,1045303,Failed,401
+user4,bot4,account4,auth4,1045304,In Progress,200
+user5,bot5,account5,auth5,1045305,Cancelled,404
+user6,bot6,account6,auth6,1045306,Pending,200
+user7,bot7,account7,auth7,1045307,Completed,200
+user8,bot8,account8,auth8,1045308,Failed,401
+user9,bot9,account9,auth9,1045309,In Progress,200
+user10,bot10,account10,auth10,1045310,Cancelled,404

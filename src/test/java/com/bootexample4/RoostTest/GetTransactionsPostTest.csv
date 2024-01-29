@@ -1,0 +1,11 @@
+koreUserId,botId,accountId,Authorization,X-Auth-token,X-CORRELATION-ID,customerId,accountNumber,numOfTransactions,status,startDate,endDate,sort,type,value,transactionAmount,amount1,amount,currency,category,debitOrCredit,statusCode
+user1,bot1,acc1,auth1,token1,12345,cust1,123456789,10,active,2021-01-01,2021-12-31,sort1,type1,value1,100,200,amount1,USD,category1,debit,200
+user2,bot2,acc2,auth2,token2,12346,cust2,123456780,20,inactive,2021-02-01,2021-12-30,sort2,type2,value2,200,300,amount2,EUR,category2,credit,200
+user3,bot3,acc3,auth3,token3,12347,cust3,123456781,30,active,2021-03-01,2021-12-29,sort3,type3,value3,300,400,amount3,GBP,category3,debit,200
+user4,bot4,acc4,auth4,token4,12348,cust4,123456782,40,inactive,2021-04-01,2021-12-28,sort4,type4,value4,400,500,amount4,JPY,category4,credit,200
+user5,bot5,acc5,auth5,token5,12349,cust5,123456783,50,active,2021-05-01,2021-12-27,sort5,type5,value5,500,600,amount5,CAD,category5,debit,200
+user6,bot6,acc6,auth6,token6,12350,cust6,123456784,60,inactive,2021-06-01,2021-12-26,sort6,type6,value6,600,700,amount6,AUD,category6,credit,200
+user7,bot7,acc7,auth7,token7,12351,cust7,123456785,70,active,2021-07-01,2021-12-25,sort7,type7,value7,700,800,amount7,CNY,category7,debit,200
+user8,bot8,acc8,auth8,token8,12352,cust8,123456786,80,inactive,2021-08-01,2021-12-24,sort8,type8,value8,800,900,amount8,INR,category8,credit,200
+user9,bot9,acc9,auth9,token9,12353,cust9,123456787,90,active,2021-09-01,2021-12-23,sort9,type9,value9,900,1000,amount9,BRL,category9,debit,200
+user10,bot10,acc10,auth10,token10,12354,cust10,123456788,100,inactive,2021-10-01,2021-12-22,sort10,type10,value10,1000,1100,amount10,RUB,category10,credit,200
